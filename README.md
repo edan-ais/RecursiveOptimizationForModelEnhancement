@@ -24,14 +24,14 @@ The security implementation leverages inherent properties of the encoding proces
 ## Key Features and User Benefits
 DataSpace provides file management functionality through a browser-based interface. The system supports multiple file formats with type-specific preview handlers that render content without external applications. The technical architecture offers specific operational advantages. The self-contained structure eliminates external dependencies, providing consistent functionality regardless of network connectivity. Data remains under user control with no automatic transmission to external systems. The removal of server infrastructure requirements reduces implementation complexity while maintaining core file management capabilities. The browser-based execution environment ensures cross-platform compatibility without requiring platform-specific installations.
 
-Future Development
+## Future Development
 Browser storage limitations could eventually constrain capacity, so compression techniques and strategic partitioning will be implemented in the core process flow to help overcome these boundaries. The current design creates multiple file copies to ensure everything stays personal to the individual's computer, but manual file moving and deletion will quickly become impractical for collections of small, rapid changes. The intended fix is to create a virtual file system interface (potentially a parallel vector version of the computer's filing system) to automatically handle document deletion and replacement. To avoid any accidental deletion through the automated system, documents will be kept in a document purgatory in DataSpace until a certain amount of time has passed or you delete them, whichever comes first. The next full iteration of DataSpace will add support for more file types to have enhanced preview and editing capabilities, particularly being able to interact with content like video games and videos directly within the document. The following release should add support for global, online sharing of documents and files, not just peer-to-peer sharing, to allow for more collaborative document editing, offline knowledge bases, and portable development environments. We envision DataSpace becoming the standard for specialized document sharing in areas like education, healthcare documentation, creative media, and secure information exchange.
 
-Development
+## Development
 Clone the repository to your local machine using Git. No build process is required - simply serve the files locally using a basic HTTP server. Access the development version at localhost:8080 to start exploring the revolutionary capabilities of the DataSpace technology.
 
-System Requirements
+## System Requirements
 For optimal performance, DataSpace requires a modern browser (Chrome 76+, Firefox 69+, Safari 14+), JavaScript enabled with IndexedDB and localStorage access, and at least 5MB of available browser storage.
 
-Legal Information
+## Legal Information
 For detailed legal information, please refer to our License, Terms of Use, and Privacy Policy documents.
