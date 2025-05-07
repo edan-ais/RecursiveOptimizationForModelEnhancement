@@ -22,8 +22,8 @@ If you discover a security vulnerability:
 - Disclosure Timeline: We commit to acknowledging receipt of security reports within 48 hours and providing an initial assessment within 5 business days.
 - Security Updates: Critical security updates will be released as soon as technically feasible.
 
-# Legal Notices
-## DataSpace is the property of Analytic Intelligence Solutions.
+## Legal Notices
+DataSpace is the property of Analytic Intelligence Solutions.
 2025 Analytic Intelligence Solutions. All rights reserved.
 
 - Export Compliance: This technology may be subject to export control laws. You may not export or re-export this software in violation of applicable laws.
